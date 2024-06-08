@@ -11,6 +11,10 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+          'olenyex': "url('https://i.ibb.co/T2y1kt0/olenyextemphoto.jpg')",
+      },
+      blur: {
+        'xs': '2px',
       },
     },
   },
