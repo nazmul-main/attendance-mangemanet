@@ -1,0 +1,60 @@
+{
+    "empployeeAttendance":[
+        {
+            "id": "E001",
+            "Name": "John Doe",
+            "Status": "Present",
+            "intime": "09:00 AM",
+            "Salary": "$5000"
+        },
+        {
+            "id": "E002",
+            "Name": "Jane Smith",
+            "Status": "Weekly off",
+            "intime": "",
+            "Salary": "$4800"
+        },
+        {
+            "id": "E003",
+            "Name": "Alice Johnson",
+            "Status": "Absent",
+            "intime": "",
+            "Salary": "$5200"
+        },
+        {
+            "id": "E004",
+            "Name": "Michael Brown",
+            "Status": "Present",
+            "intime": "09:15 AM",
+            "Salary": "$4700"
+        },
+        {
+            "id": "E005",
+            "Name": "Emily Davis",
+            "Status": "Present",
+            "intime": "08:50 AM",
+            "Salary": "$5100"
+        },
+        {
+            "id": "E006",
+            "Name": "David Wilson",
+            "Status": "Weekly off",
+            "intime": "",
+            "Salary": "$5300"
+        },
+        {
+            "id": "E007",
+            "Name": "Sarah Miller",
+            "Status": "Absent",
+            "intime": "",
+            "Salary": "$4900"
+        },
+        {
+            "id": "E008",
+            "Name": "Chris Moore",
+            "Status": "Present",
+            "intime": "09:05 AM",
+            "Salary": "$5500"
+        }
+    ]
+}
