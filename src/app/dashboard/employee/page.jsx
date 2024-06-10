@@ -1,5 +1,5 @@
-import React from "react";
-import { MdPersonAddAlt1 } from "react-icons/md";
+import AddEmployee from "@/components/Button/AddEmployee";
+
 
 const Employee = async () => {
   const res = await fetch("http://localhost:3001/empployeeAttendance");
@@ -9,9 +9,7 @@ const Employee = async () => {
       <div className=" border bg-[#e9f1ea38]">
         <div className=" flex justify-between items-center p-4">
           <h2 className="mb-2 text-xl font-bold">Our Employee </h2>
-          <button className=" flex text-white py-2 px-2 bg-blue-600 rounded-full">
-            <MdPersonAddAlt1 className="text-2xl" />
-          </button>
+          <AddEmployee/>
         </div>
         <hr className="h-[3px] bg-green-500" />
         <div className="p-4 ">
@@ -66,7 +64,7 @@ const Employee = async () => {
                 htmlFor="date"
                 className="block text-gray-700 font-medium mb-2"
               >
-                Date
+                Employee ID
               </label>
               <input
                 type="text"
